@@ -1,4 +1,4 @@
-# Prostate Cancer Classifier
+# 3D Prostate Cancer Classifier
 The purpose of this project is to develop a Convolutional Neural Network capable to determine whether the prostate 
 lesion is  benign or malign.
 
@@ -6,7 +6,7 @@ lesion is  benign or malign.
 The training and testing data used for this project was provided by the PROSTATEx Challenges:
 <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=23691656">SPIE-AAPM-NCI PROSTATEx Challenges
 (PROSTATEx)</a>. Due to the fact that only the training set provides a ground truth, the dataset was randomly split in 
-order to provide a training and a testing dataset.
+order to provide a training and a testing dataset (see <strong>Detailed Description</strong>).
 
 For training, there were provided <strong>T2-weighted transversal</strong> images, as well as <strong>ADC</strong> and 
 <strong>KTrans</strong>. All DICOM files need to be converted to NIFTI files using 
