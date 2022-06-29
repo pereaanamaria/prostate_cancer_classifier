@@ -10,11 +10,14 @@ order to provide a training and a testing dataset (see <strong>Detailed Descript
 
 For training, there were provided <strong>T2-weighted transversal</strong> images, as well as <strong>ADC</strong> and 
 <strong>KTrans</strong>. All DICOM files need to be converted to NIFTI files using 
-<a href='https://www.nitrc.org/projects/mricrogl/'>MRIcoGL</a> [1]. Then the ... notebook will sort out the T2-weighted 
-transversal images as well as convert the KTrans files (*.mhd) into NIFTI format.
+<a href='https://www.nitrc.org/projects/mricrogl/'>MRIcoGL</a> [1]. Then the [Data preparation](Data%preparation.ipynb) 
+notebook will sort out the T2-weighted transversal images as well as convert the KTrans files (*.mhd) into NIFTI format.
+Through the [Data preparation](Data%preparation.ipynb) notebook, a pickle file will be created, that will contain the 
+lesion information for each patient, based on the <strong>Findings.csv</strong> file, as well as the locations to each 
+patient's T2-weighted, ADC, and KTrans files.
 
-Using the ... notebook will create a pickle file containing the lesion information for each patient, based on the 
-<strong>Findings.csv</strong> file.
+An example of how the data has been sorted and refined can be seen through running the 
+[Visualize data](Visualize%data.ipynb) notebook.
 
 ## Bibliography
 [1] Hugegene, <a href='https://towardsdatascience.com/3d-cnn-classification-of-prostate-tumour-on-multi-parametric-mri-sequences-prostatex-2-cced525394bb'>
