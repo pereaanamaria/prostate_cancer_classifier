@@ -35,6 +35,10 @@ masks for the whole prostate as well as the central zone. [2-3]
 preprocessing</a>
 notebook [2]. The data is used for visualising the lesions in the [`Visualize data`](Visualize%20data.ipynb) notebook.
 
+## MONAI
+
+## Training
+
 ## Bibliography
 [1] Hugegene, <a href='https://towardsdatascience.com/3d-cnn-classification-of-prostate-tumour-on-multi-parametric-mri-sequences-prostatex-2-cced525394bb'>
 3D CNN Classification of Prostate Cancer on PROSTATEx-2</a>. 3D CNN on Multi-Parametric MRI Sequences. 2019.
