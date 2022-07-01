@@ -133,3 +133,7 @@ dmypy.json
 
 # Folders
 data/
+plot_lib/
+ProstateX_masks/
+ProstateX_transforms/
+
