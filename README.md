@@ -26,11 +26,13 @@ repository [2]. It can be cloned using the following command:
 git clone https://github.com/OscarPellicer/plot_lib.git
 ```
 
-Also, some zip files need to be unpacked [2]:
-- `ProstateX_masks.zip`: It contains **automatically generated** ProstateX masks for the whole prostate as well as 
-the central zone. [2-3]
-- `ProstateX_plotting.zip`: It contains generated data from running the 
-[`ProstateX preprocessing`](https://github.com/OscarPellicer/prostate_lesion_detection/blob/main/ProstateX%20preprocessing.ipynb)
+### Additional data used for plotting
+[`ProstateX_masks.zip`](ProstateX_masks.zip) needs to be unpacked. It contains **automatically generated** ProstateX 
+masks for the whole prostate as well as the central zone. [2-3]
+
+[`ProstateX_plotting`](ProstateX_plotting) contains generated data from running the 
+<a href='https://github.com/OscarPellicer/prostate_lesion_detection/blob/main/ProstateX%20preprocessing.ipynb'>ProstateX 
+preprocessing</a>
 notebook [2]. The data is used for visualising the lesions in the [`Visualize data`](Visualize%20data.ipynb) notebook.
 
 ## Bibliography
