@@ -36,9 +36,9 @@ preprocessing</a>
 notebook [2]. The data is used for visualising the lesions in the [`Visualize_data`](Visualize_data.ipynb) notebook.
 
 ## MONAI
-MONAI (Medical Open Network for Artificial Intelligence) is a freely available, community-supported, PyTorch-based 
-framework for deep learning in healthcare imaging. It provides domain-optimized foundational capabilities for developing 
-healthcare imaging training workflows in a native PyTorch paradigm. [4]
+<a href='https://monai.io/'>MONAI (Medical Open Network for Artificial Intelligence)</a> is a freely available, 
+community-supported, PyTorch-based framework for deep learning in healthcare imaging. It provides domain-optimized 
+foundational capabilities for developing healthcare imaging training workflows in a native PyTorch paradigm. [4]
 
 ## Training
 The [`Training`](Training.ipynb) notebook will train the model. It is based on the MONAI 3D classification 
