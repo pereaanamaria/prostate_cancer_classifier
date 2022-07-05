@@ -45,9 +45,9 @@ community-supported, PyTorch-based framework for deep learning in healthcare ima
 foundational capabilities for developing healthcare imaging training workflows in a native PyTorch paradigm. [4]
 
 ## Training
-The [`Training`](Training.ipynb) notebook will train the model. It is based on the MONAI 3D classification 
-tutorial. The model uses a DenseNet-121 architecture, along with Binary Cross Entropy loss function, as well as an Adam 
-optimizer.
+The [`Train_and_Evaluate`](Train_and_Evaluate.ipynb) notebook will train the model. It is based on the MONAI 3D 
+classification tutorial. The model uses a DenseNet-121 architecture, along with Binary Cross Entropy loss function, as 
+well as an Adam optimizer.
 
 ## Bibliography
 [1] Hugegene, <a href='https://towardsdatascience.com/3d-cnn-classification-of-prostate-tumour-on-multi-parametric-mri-sequences-prostatex-2-cced525394bb'>
