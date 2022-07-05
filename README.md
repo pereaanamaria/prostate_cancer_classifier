@@ -2,6 +2,10 @@
 The purpose of this project is to develop a **Convolutional Neural Network** capable to determine whether the prostate 
 lesion is  benign or malign.
 
+## Before you start
+The [`constants.py`](constants.py) file contains the generalised variables that will be used throughout the notebooks in 
+this repository. It is advisable to update this Python file before you start running the notebooks.
+
 ## Dataset
 The training and testing data used for this project was provided by the PROSTATEx Challenges:
 <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=23691656">SPIE-AAPM-NCI PROSTATEx Challenges
