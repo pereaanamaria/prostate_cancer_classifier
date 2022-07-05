@@ -132,7 +132,10 @@ dmypy.json
 .idea
 
 # Folders
+best_metrics/
 data/
+logs/
 plot_lib/
 ProstateX_masks/
+runs/
 
