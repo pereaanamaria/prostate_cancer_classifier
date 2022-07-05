@@ -4,7 +4,7 @@ lesion is  benign or malign.
 
 ## Before you start
 The [`constants.py`](constants.py) file contains the generalised variables that will be used throughout the notebooks in 
-this repository. It is advisable to update the Python file according to the user's preference.
+this repository. It is advisable to update this Python file before you start running the notebooks.
 
 ## Dataset
 The training and testing data used for this project was provided by the PROSTATEx Challenges:
