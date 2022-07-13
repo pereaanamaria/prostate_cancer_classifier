@@ -135,6 +135,7 @@ dmypy.json
 best_metrics/
 data/
 logs/
+notebooks/
 plot_lib/
 ProstateX_masks/
 runs/
