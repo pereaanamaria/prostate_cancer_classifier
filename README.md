@@ -12,12 +12,13 @@ The training and testing data used for this project was provided by the PROSTATE
 (PROSTATEx)</a>. Due to the fact that only the training set provides a ground truth, the dataset was randomly split in 
 order to provide a training and a testing dataset (see **Detailed Description**).
 
-For training, there were provided **T2-weighted transversal** images, as well as **ADC** and **KTrans**. All DICOM files 
+For training, there were provided **T2-weighted transversal** images, as well as **ADC**, **DWI**, and **KTrans**. All DICOM files 
 need to be converted to NIFTI files using <a href='https://www.nitrc.org/projects/mricrogl/'>MRIcoGL</a> [1]. Then the 
 [`Data_preparation`](Data_preparation.ipynb) notebook will sort out the T2-weighted transversal images as well as 
-convert the KTrans files (*.mhd) into NIFTI format. Through the [`Data_preparation`](Data_preparation.ipynb) notebook, 
+convert the KTrans files (*.mhd) into NIFTI format. Also, because the DWI files have multiple contrasts, they were split
+into multiple files with one type of contrast each. Through the [`Data_preparation`](Data_preparation.ipynb) notebook, 
 a pickle file will be created, that will contain the lesion information for each patient, based on the **Findings.csv** 
-file, as well as the locations to each patient's T2-weighted, ADC, and KTrans files.
+file, as well as the locations to each patient's T2-weighted, ADC, DWI, and KTrans files.
 
 An example of how the data has been sorted and refined can be seen through running the 
 [`Visualize_data`](Visualize_data.ipynb) notebook.
