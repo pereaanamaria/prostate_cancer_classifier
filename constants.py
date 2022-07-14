@@ -46,3 +46,7 @@ class Constants:
         )
         self.loss_function = torch.nn.BCEWithLogitsLoss()
         self.optimizer = torch.optim.Adam(self.model.parameters(), self.lr)
+
+        self.model_type = f'DensNet121({self.spatial_dims}, {self.in_channels}, {self.out_channels})'
+        self.loss_type = f'Binary Cross Entropy'
+        self.optimizer_type = f'Adam'
