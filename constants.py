@@ -32,12 +32,12 @@ class Constants:
         self.batch_size = 2
         self.batch_size_test = 1
         self.num_workers = 0
-        self.epochs = 100
+        self.epochs = 50
 
         self.spatial_dims = 3
         self.in_channels = 1
         self.out_channels = 2
-        self.lr = 1e-3
+        self.lr = 1e-4
 
         self.model = monai.networks.nets.DenseNet121(
             spatial_dims=self.spatial_dims,
