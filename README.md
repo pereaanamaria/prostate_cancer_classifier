@@ -6,6 +6,28 @@ lesion is  benign or malign.
 The [`constants.py`](constants.py) file contains the generalised variables that will be used throughout the notebooks in 
 this repository. It is advisable to update this Python file before you start running the notebooks.
 
+## Set up
+In order to create the virtual environment, the following steps must be followed.
+
+Download and install <a href="https://www.anaconda.com/products/distribution">Anaconda</a>, then open Anaconda
+Prompt in order to create your virtual environment.
+
+Then create a virtual environment using the commands below.
+```bash
+conda create -n pca39 python=3.9
+conda activate pca39
+```
+Install <a href="https://pytorch.org/">PyTorch</a> in your environment, then navigate to the repository and run the
+[`requirements.txt`](requirements.txt) file:
+```bash
+pip install -r requirements.txt
+```
+Launch Jupyter Notebook with the following command:
+```bash
+jupyter notebook
+```
+
+
 ## Dataset
 The training and testing data used for this project was provided by the PROSTATEx Challenges:
 <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=23691656">SPIE-AAPM-NCI PROSTATEx Challenges
