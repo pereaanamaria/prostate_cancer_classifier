@@ -49,9 +49,6 @@ git clone https://github.com/OscarPellicer/plot_lib.git
 ```
 
 ### Additional data used for plotting
-[`ProstateX_masks.zip`](ProstateX_masks.zip) needs to be unpacked. It contains **automatically generated** ProstateX 
-masks for the whole prostate as well as the central zone. [2-3]
-
 [`ProstateX_plotting`](ProstateX_plotting) contains generated data from running the 
 <a href='https://github.com/OscarPellicer/prostate_lesion_detection/blob/main/ProstateX%20preprocessing.ipynb'>ProstateX 
 preprocessing</a>
@@ -60,7 +57,7 @@ notebook [2]. The data is used for visualising the lesions in the [`Visualize_da
 ## MONAI
 <a href='https://monai.io/'>MONAI (Medical Open Network for Artificial Intelligence)</a> is a freely available, 
 community-supported, PyTorch-based framework for deep learning in healthcare imaging. It provides domain-optimized 
-foundational capabilities for developing healthcare imaging training workflows in a native PyTorch paradigm. [4]
+foundational capabilities for developing healthcare imaging training workflows in a native PyTorch paradigm. [3]
 
 ## Training
 The [`Train_and_Evaluate`](03_Train_and_Evaluate.ipynb) notebook will train the model. It is based on the MONAI 3D 
@@ -77,9 +74,4 @@ Martín-Guerrero, <a href='https://arxiv.org/abs/2103.12650'>Deep Learning for f
 and Gleason Grade estimation of prostate cancer in multiparametric Magnetic Resonance Images</a>. Scientific Reports. 
 February, 2022.
 
-[3] Oscar J. Pellicer-Valero, Victor Gonzalez-Perez, Juan Luis Casanova Ramón-Borja, Isabel Martín García,María Barrios 
-Benito, Paula Pelechano Gómez,José Rubio-Briones,María José Rupérez, José D. Martín-Guerrero, 
-<a href='https://www.mdpi.com/2076-3417/11/2/844'>Robust Resolution-Enhanced Prostate Segmentation in Magnetic Resonance
-and Ultrasound Images through Convolutional Neural Networks</a>. Applied Sciences. 2021.
-
-[4] <a href='https://monai.io/'>MONAI - Medical Open Network for Artificial Intelligence</a>
+[3] <a href='https://monai.io/'>MONAI - Medical Open Network for Artificial Intelligence</a>

@@ -11,7 +11,6 @@ class Constants:
         self.dataset_path = Path('./data')
         self.logs = Path('./logs')
 
-        self.masks = Path('./ProstateX_masks')
         self.plotting = Path('./ProstateX_plotting')
 
         self.processed = self.dataset_path / 'processed'
@@ -37,7 +36,7 @@ class Constants:
         self.spatial_dims = 3
         self.in_channels = 1
         self.out_channels = 2
-        self.lr = 1e-4
+        self.lr = 1e-5
 
         self.model = monai.networks.nets.DenseNet121(
             spatial_dims=self.spatial_dims,
