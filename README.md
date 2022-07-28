@@ -79,8 +79,8 @@ In order to visualize the KPI values and the evaluation metrics as plots, run th
 
 An example of the resulting plots is shown below.
 
-#### Resulted KPI plots example
-![Resulted KPI plot]()
+#### Resulted internal KPI plots example
+![Resulted internal KPI plot](assets/resulted_internal_KPIs.png)
 
 #### Resulted metrics plots example
 ![Resulted metrics plot](assets/metrics.png)
