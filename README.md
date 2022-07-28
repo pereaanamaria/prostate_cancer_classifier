@@ -40,6 +40,10 @@ file, as well as the locations to each patient's T2-weighted, ADC, DWI, and KTra
 An example of how the data has been sorted and refined can be seen through running the 
 [`Visualize_data`](02_Visualize_data.ipynb) notebook.
 
+#### Series of T2-weighted, ADC, DWI, and KTrans images
+![Series of T2W and ADC](assets/01_series.png)
+![Series of DWI and KTrans](assets/02_series.png)
+
 ### 3D Plotting using plot_lib
 In order to visualize the **multiparametric Magnetic Resonance Images** (mpMRI) lesions, the 
 [`Visualize_data`](02_Visualize_data.ipynb) notebook uses the [`plot_lib`](https://github.com/OscarPellicer/plot_lib) 
@@ -54,6 +58,9 @@ git clone https://github.com/OscarPellicer/plot_lib.git
 preprocessing</a>
 notebook [2]. The data is used for visualising the lesions in the [`Visualize_data`](02_Visualize_data.ipynb) notebook.
 
+#### Example of lesion plotting on a T2-weighted image, using plot_lib and ProstateX_plotting
+![Example of lesion plotting](assets/plot_lib_T2W.png)
+
 ## MONAI
 <a href='https://monai.io/'>MONAI (Medical Open Network for Artificial Intelligence)</a> is a freely available, 
 community-supported, PyTorch-based framework for deep learning in healthcare imaging. It provides domain-optimized 
@@ -63,6 +70,20 @@ foundational capabilities for developing healthcare imaging training workflows i
 The [`Train_and_Evaluate`](03_Train_and_Evaluate.ipynb) notebook will train the model. It is based on the MONAI 3D 
 classification tutorial. The model uses a DenseNet-121 architecture, along with Binary Cross Entropy loss function, as 
 well as an Adam optimizer.
+
+## Getting the results
+In order to visualize the KPI values and the evaluation metrics as plots, run the notebooks found in the 
+[`results_notebooks`](results_notebooks) folder:
+- [`results_notebooks/01_Get_result_data.ipynb`](results_notebooks/01_Get_result_data.ipynb);
+- [`results_notebooks/02_Plot_results_data.ipynb`](results_notebooks/02_Plot_results_data.ipynb).
+
+An example of the resulting plots is shown below.
+
+#### Resulted internal KPI plots example
+![Resulted internal KPI plot](assets/resulted_internal_KPIs.png)
+
+#### Resulted metrics plots example
+![Resulted metrics plot](assets/metrics.png)
 
 ## Bibliography
 [1] Hugegene, <a href='https://towardsdatascience.com/3d-cnn-classification-of-prostate-tumour-on-multi-parametric-mri-sequences-prostatex-2-cced525394bb'>

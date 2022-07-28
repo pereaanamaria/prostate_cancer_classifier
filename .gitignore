@@ -128,6 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# pickle
+*.pickle
+
 # PyCharm project
 .idea
 
@@ -135,7 +138,6 @@ dmypy.json
 best_metrics/
 data/
 logs/
-notebooks/
 plot_lib/
 ProstateX_masks/
 runs/

@@ -36,7 +36,7 @@ class Constants:
         self.spatial_dims = 3
         self.in_channels = 1
         self.out_channels = 2
-        self.lr = 1e-5
+        self.lr = 1e-4
 
         self.model = monai.networks.nets.DenseNet121(
             spatial_dims=self.spatial_dims,
@@ -45,8 +45,10 @@ class Constants:
         )
         self.loss_function = torch.nn.BCEWithLogitsLoss()
         self.optimizer = torch.optim.Adam(self.model.parameters(), self.lr)
+        # self.optimizer = torch.optim.SGD(self.model.parameters(), lr=self.lr, momentum=0.9)
 
         # Information used for logging
         self.model_type = f'DensNet121({self.spatial_dims}, {self.in_channels}, {self.out_channels})'
         self.loss_type = f'Binary Cross Entropy'
         self.optimizer_type = f'Adam'
+        # self.optimizer_type = f'SGD'
